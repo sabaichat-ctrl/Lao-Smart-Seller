@@ -747,7 +747,12 @@ async function startServer() {
   });
 }
 
-startServer().catch(err => {
-  console.error('Failed to start Lao Smart Seller server:', err);
-  process.exit(1);
-});
+// Only start standalone server when not in Vercel serverless environment
+if (!process.env.VERCEL) {
+  startServer().catch(err => {
+    console.error('Failed to start Lao Smart Seller server:', err);
+    process.exit(1);
+  });
+}
+
+export default app;
