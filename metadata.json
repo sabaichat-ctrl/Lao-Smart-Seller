@@ -1,0 +1,6 @@
+{
+  "name": "Lao Smart Seller",
+  "description": "ລະບົບຈັດການຮ້ານຄ້າອອນລາຍ Facebook ສຳລັບແມ່ຄ້າລາວ: ຄຸ້ມຄອງສິນຄ້າ, ອໍເດີ, ລູກຄ້າ, ລາຍງານຍອດຂາຍ ແລະ ຕັ້ງຄ່າລະບົບ Messenger Webhook",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
